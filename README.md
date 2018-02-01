@@ -41,6 +41,9 @@ followed by a slide from B to A for 2.5 beats, is desired, set B’s velocity to
 10, set B’s length to 5 beats, and ensure that A and B overlap for the entire
 duration of B.
 
+The “Fixed velocity” setting overrides the velocity of every audible note with
+the specified value.
+
 
 Dependencies
 ------------
