@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 taylor.fish <contact@taylor.fish>
+ * Copyright (C) 2018 taylor.fish <contact@taylor.fish>
  *
  * This file is part of Fish MidiSlide.
  *
