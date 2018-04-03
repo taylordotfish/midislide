@@ -160,7 +160,7 @@ lv2:portProperty pprops:hasStrictBounds ;
 lv2:portProperty lv2:integer ;
 lv2:default 0 ;
 lv2:minimum 0 ;
-lv2:maximum 128;
+lv2:maximum 127;
 """),
 ])
 
