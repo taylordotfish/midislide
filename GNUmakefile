@@ -22,6 +22,7 @@ LDLIBS = -lm
 OBJECTS = midislide.o
 LIBRARY = midislide.so
 
+.PHONY: all
 all: $(LIBRARY)
 
 $(LIBRARY): $(OBJECTS)
@@ -34,4 +35,4 @@ $(LIBRARY): $(OBJECTS)
 
 .PHONY: clean
 clean:
-	rm -f *.o *.d *.so
+	rm -f $(OBJECTS) $(OBJECTS:.o=.d) $(LIBRARY)
