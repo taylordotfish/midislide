@@ -16,7 +16,8 @@
 # along with Fish MidiSlide.  If not, see <http://www.gnu.org/licenses/>.
 
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror -pedantic -std=c99 -fpic -Ofast -MMD
+CFLAGS = -Wall -Wextra -Werror -pedantic -std=c99 -fpic -Ofast -MMD \
+		 -fvisibility=hidden -flto -fwhole-program
 LDFLAGS = -shared -Wl,--no-undefined,--no-allow-shlib-undefined
 LDLIBS = -lm
 OBJECTS = midislide.o
