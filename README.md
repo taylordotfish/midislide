@@ -1,9 +1,9 @@
-Fish MidiSlide
-==============
+Midislide
+=========
 
-Fish MidiSlide is an LV2 plugin that allows you to use slide notes with plugins
-that accept MIDI input. Any plugin that supports the MIDI pitch bend controller
-is supported.
+Midislide is an LV2 plugin that allows you to use slide notes with plugins that
+accept MIDI input. Any plugin that supports the MIDI pitch bend controller is
+supported.
 
 
 Usage
@@ -77,8 +77,8 @@ make
 License
 -------
 
-Fish MidiSlide is licensed under the GNU General Public License, version 3 or
-any later version. See [LICENSE].
+Midislide is licensed under the GNU General Public License, version 3 or any
+later version. See [LICENSE].
 
 This README file has been released to the public domain using [CC0].
 
