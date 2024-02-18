@@ -16,9 +16,10 @@
 # along with Midislide.  If not, see <http://www.gnu.org/licenses/>.
 
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror -pedantic -std=c99 -fpic -O3 -MMD \
-		 -fvisibility=hidden -flto
-LDFLAGS = -flto -shared -Wl,--no-undefined,--no-allow-shlib-undefined
+OPTFLAGS ?= -flto -O3
+CFLAGS += -Wall -Wextra -Werror -pedantic -std=c99 -fpic -MMD $(OPTFLAGS) \
+          -fvisibility=hidden
+LDFLAGS += $(OPTFLAGS) -shared -Wl,--no-undefined,--no-allow-shlib-undefined
 LDLIBS = -lm
 OBJECTS = midislide.o
 LIBRARY = midislide.so
